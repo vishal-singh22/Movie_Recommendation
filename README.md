@@ -1,7 +1,5 @@
-
-# Movie Recommendation System
-
-This project is a **Movie Recommendation System** built using **Python**, **Streamlit**, and the **Kaggle TMDB 5000 Movies Dataset**. It employs content-based and collaborative filtering techniques to recommend similar movies to users. The application also integrates with the **TMDB API** to fetch and display movie posters.
+Movie Recommendation System\
+This project is a Movie Recommendation System built using Python, Streamlit, and the Kaggle TMDB 5000 Movies Dataset. It employs content-based and collaborative filtering techniques to recommend similar movies to users. The application also integrates with the TMDB API to fetch and display movie posters.
 
 ## Features
 
@@ -12,41 +10,50 @@ This project is a **Movie Recommendation System** built using **Python**, **Stre
 
 ## Project Structure
 
-- **`recommend()`**: Function that takes a movie title as input and returns 5 recommended movies with posters.
-- **`fetch_poster()`**: Function to fetch the poster of a movie using the TMDB API.
+- **recommend()**: Function that takes a movie title as input and returns 5 recommended movies with posters.
+- **fetch\_poster()**: Function to fetch the poster of a movie using the TMDB API.
 - **Jupyter Notebook**: The model is trained in a Jupyter Notebook using the Kaggle TMDB 5000 movies dataset.
 - **Pickle Files**: The movie data and similarity matrix are stored as `movies_system.pkl` and `similarity.pkl`.
 
 ## How to Run
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/Movie-Recommendation.git
-   cd movie-recommendation-system
-   ```
+### Clone the repository:
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+```sh
+git clone https://github.com/your-username/Movie-Recommendation.git  
+cd movie-recommendation-system  
+```
 
-3. **Run the Streamlit app**:
-   ```bash
-   streamlit run app.py
-   ```
+### Install dependencies:
 
-4. **Interact with the UI**:
-   - Select a movie from the dropdown menu, and click the "Movie Recommendation" button to see the recommended movies and their posters.
+```sh
+pip install -r requirements.txt  
+```
+
+### Run the Streamlit app:
+
+```sh
+streamlit run app.py  
+```
+
+### Interact with the UI:
+
+- Select a movie from the dropdown menu, and click the "Movie Recommendation" button to see the recommended movies and their posters.
+
+## Live Demo
+# 🎬 Live Demo
+
+🚀 Experience it here: [Movie Recommendation System](https://movie-recommendation-3z72.onrender.com)
 
 ## Screenshots
 
-### 1. **User Interface: Movie Selection Screen**
+### 1. User Interface: Movie Selection Screen
 
-![Movie Selection UI](Images/home.png)
+*Movie Selection UI*
 
-### 2. **Movie Recommendations with Posters**
+### 2. Movie Recommendations with Posters
 
-![Movie Recommendations](Images/result.png)
+*Movie Recommendations*
 
 ## Dependencies
 
@@ -59,17 +66,17 @@ This project is a **Movie Recommendation System** built using **Python**, **Stre
 
 ## API Usage
 
-- The **TMDB API** is used to fetch the poster for the recommended movies. You need an API key from [The Movie Database](https://www.themoviedb.org/).
+The TMDB API is used to fetch the poster for the recommended movies. You need an API key from The Movie Database.
 
 ## How It Works
 
-- The model uses a content-based filtering approach, where it calculates the similarity between the selected movie and other movies using content vectorization.
-- It returns the top 5 most similar movies and fetches their posters using the TMDB API.
+1. The model uses a content-based filtering approach, where it calculates the similarity between the selected movie and other movies using content vectorization.
+2. It returns the top 5 most similar movies and fetches their posters using the TMDB API.
 
 ## Example
 
-- Input: `The Dark Knight`
-- Output: 5 movies similar to The Dark Knight, along with their posters.
+**Input**: The Dark Knight\
+**Output**: 5 movies similar to The Dark Knight, along with their posters.
 
 ## Future Improvements
 
@@ -79,4 +86,7 @@ This project is a **Movie Recommendation System** built using **Python**, **Stre
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
