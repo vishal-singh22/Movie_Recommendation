@@ -42,7 +42,7 @@ This project is a **Movie Recommendation System** built using **Python**, **Stre
 
 ### 1. **User Interface: Movie Selection Screen**
 
-![Movie Selection UI](https://github.com/vishal-singh22/recommand-system/blob/33f1e582d158b0cd063fd2b1525b7fe0ba088d28/select_movies.png)
+![Movie Selection UI](Images/home.png)
 
 ### 2. **Movie Recommendations with Posters**
 
