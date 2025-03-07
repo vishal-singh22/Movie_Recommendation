@@ -21,7 +21,7 @@ This project is a **Movie Recommendation System** built using **Python**, **Stre
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/movie-recommendation-system.git
+   git clone https://github.com/your-username/Movie-Recommendation.git
    cd movie-recommendation-system
    ```
 
