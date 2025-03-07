@@ -47,13 +47,11 @@ streamlit run app.py
 
 ## Screenshots
 
-### 1. User Interface: Movie Selection Screen
+### 🎬 Movie Selection UI
+![Movie Selection](Images/home.png)
 
-*Movie Selection UI*
-
-### 2. Movie Recommendations with Posters
-
-*Movie Recommendations*
+### 🎞️ Movie Recommendations with Posters
+![Movie Recommendations](Images/result.png)
 
 ## Dependencies
 
