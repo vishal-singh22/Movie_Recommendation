@@ -43,7 +43,7 @@ streamlit run app.py
 ## Live Demo
 # 🎬 Live Demo
 
-🚀 Experience it here: [Movie Recommendation System](https://movie-recommendation-3z72.onrender.com)
+🚀 Experience it here: [[Movie Recommendation System](https://movie-recommendation-3z72.onrender.com)](https://movie-recommendation-3z72.onrender.com)
 
 ## Screenshots
 
